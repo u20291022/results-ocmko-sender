@@ -8,10 +8,10 @@ export class TextMessagesHandlerTest {
 
   testIsTextCommand = (): void => {
     const commandWithoutTag = "/help"
-    const commandWithTag = "/help@some_horoscope_bot"
+    const commandWithTag = "/help@ege_results_2022_bot"
 
     const text = "send"
-    const textWithTag = "send@some_horoscope_bot"
+    const textWithTag = "send@ege_results_2022_bot"
 
     assert.equal(textMessagesHandler.isTextCommand(commandWithoutTag), true)
     assert.equal(textMessagesHandler.isTextCommand(commandWithTag), true)
