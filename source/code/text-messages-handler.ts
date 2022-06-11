@@ -14,7 +14,7 @@ class TextMessagesHandler {
   }
 
   isTextCommand = (text: string): boolean => {
-    return text[0] === "/" && (!text.includes("@") || text.includes("@some_horoscope_bot"))
+    return text[0] === "/" && (!text.includes("@") || text.includes("@ege_results_2022_bot"))
   }
 }
 
